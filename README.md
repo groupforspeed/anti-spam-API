@@ -291,3 +291,20 @@ Le Laide
 ##Final
 
 I hate when I break a plugin main function witha return. I have to change all, one day or another
+
+
+##install
+
+sudo apt-get update
+
+sudo apt-get upgrade
+
+sudo apt-get update; sudo apt-get install lua5.1 luarocks lua-socket lua-sec redis-server curl ; sudo luarocks install moonscript ; sudo luarocks install oauth ; sudo luarocks install redis-lua ; sudo luarocks install lua-cjson ; sudo luarocks install ansicolors;sudo luarocks install serpent
+
+git clone https://github.com/RememberTheAir/GroupButler
+
+##erorr install
+
+sudo apt-get install lua5.1
+
+sudo apt-get remove lua5.2
